@@ -9,8 +9,18 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+ls -a = list all files and folders
+pwd = print working directory
+cd / = go to root
+man <command> = shows manual 
+cat <fileName> = show content of file (less, more)
+mkdir = create new folder
+cp image.jpg newimage.jpg = copy and rename a file
+rm <fileName> .. = delete file (s)
+rm -r <foldername>/ = delete folder
+touch <fileName> = create or update a file
+find -name “<fileName>”
+grep -r <text> <folderName>/ = search for file names with occurrence of the text
 ---
 
 ###Q2.  List Files in Unix   
@@ -24,7 +34,9 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+'ls' lists files in your current directory
+'ls -a' lists all files in your current directory (includes hidden files preceded by a dot (.))
+`ls -l` lists
 
 ---
 
