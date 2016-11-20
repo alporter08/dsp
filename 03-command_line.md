@@ -20,7 +20,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 `rm -r` <foldername>/ = delete folder  
 `touch` <fileName> = create or update a file  
 `find -name` “<fileName>”  
-`grep -r` <text> <folderName>/ = search for file names with occurrence of the text  
+`grep -r` <text> <folderName>/ = search for file names with occurrence of the text    
 ---
 
 ###Q2.  List Files in Unix   
