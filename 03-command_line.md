@@ -19,8 +19,8 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 `rm` <fileName> .. = delete file (s)  
 `rm -r` <foldername>/ = delete folder  
 `touch` <fileName> = create or update a file  
-`find -name` <fileName> = find file 
-`grep -r` <text> <foldername>/ = search for file names with occurence of text   
+`find -name` <fileName> = find file  
+`grep -r` <text> <foldername>/ = search for file names with occurence of text     
 ---
 
 ###Q2.  List Files in Unix   
@@ -34,9 +34,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-`ls` lists files in your current directory  
-`ls -a` lists all files in your current directory (includes hidden files preceded by a dot (.))  
-`ls -l` lists  
+`ls` lists files in your current directory      
+`ls -a` lists all files in your current directory (includes hidden files preceded by a dot (.))      
+`ls -l` lists in long format    
+`ls -lh` lists in long format with unit suffixes to reduce numbers shown for file size    
+`ls -lah` lists all files in long format (including hidden) with unit suffixes    
+`ls -t` lists files sorted by time (most recently modified first  
+`ls -Glp` lists files in long format with color formatting and with slashes for folders
 
 ---
 
