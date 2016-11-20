@@ -19,7 +19,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 `rm` <fileName> .. = delete file (s)  
 `rm -r` <foldername>/ = delete folder  
 `touch` <fileName> = create or update a file  
-`find -name` “<fileName>” = find file 
+`find -name` <fileName> = find file 
 `grep -r` <text> <folderName>/ = search for file names with occurrence of the text    
 ---
 
