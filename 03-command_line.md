@@ -34,9 +34,9 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-'ls' lists files in your current directory
-'ls -a' lists all files in your current directory (includes hidden files preceded by a dot (.))
-`ls -l` lists
+'ls' lists files in your current directory  
+'ls -a' lists all files in your current directory (includes hidden files preceded by a dot (.))  
+`ls -l` lists  
 
 ---
 
