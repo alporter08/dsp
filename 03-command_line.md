@@ -60,7 +60,13 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`xargs` takes strings from the standard input and executes a utility with those strings as an argument.    
+It can be used with `find` and `grep` to search for some files, and then look for a certain word in those files.    
+
+`find . -name "*.java" | xargs grep "Stock"`
+
+
+
 
  
 
