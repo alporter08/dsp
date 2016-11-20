@@ -48,7 +48,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`ls -F` flags filenames       
+`ls -1` displays entries one per line      
+`ls -r` displays in reverse order       
+`ls -R` displays subdirectories       
+`ls -o` displays in a comma separated list     
 
 ---
 
