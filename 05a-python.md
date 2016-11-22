@@ -20,8 +20,30 @@ Lists and tuples both contain a sequence of comma separated elements.  However, 
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Lists can contain duplicate elements whereas sets cannot.  Sets are unordered, and elements are found using a hash lookup, which results in better performance.  Lists are faster for iterating through elements.    
+Sets are useful when comparing elements and finding ones that exist in one set and not another.
 
+In the examples below, a set and a list are compared with another set and list respectively.  The output is the elements in the first sequence that do not appear in the second.
+
+**Set example:**
+```python
+>>> s1 = {'dog', 'cat', 'tiger'}
+>>> s2 = {'dog','bird', 'lizard'}
+>>> s1-s2
+set(['tiger', 'cat'])
+```
+
+**List example:**
+```python
+>>> l1 = ['dog', 'cat', 'tiger']
+>>> l2 = ['dog', 'bird', 'lizard']
+>>> for i in l1:
+...     if i not in l2: 
+...             print i
+... 
+cat
+tiger
+```
 ---
 
 ###Q3. Lambda Function
