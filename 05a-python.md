@@ -50,7 +50,13 @@ tiger
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Lambda functions are small anonymous functions.  They can be used where a function would be expected.  They are useful for operations that only need to occur at the moment the function is called.  They are often used in conjuction with `map()` and `filter()`.
+
+```python
+>>> animals = [('cat', 'black'), ('dog', 'golden'), ('fish', 'blue')]
+>>> sorted(animals, key=lambda animal: animal[1])
+[('cat', 'black'), ('fish', 'blue'), ('dog', 'golden')]
+```
 
 ---
 
