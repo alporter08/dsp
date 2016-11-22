@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
-Lists and tuples both contain a sequence of comma separated elements.  However, lists are mutable whereas tuples are immutable. Lists are represented within square brackets, whereas tuples are represented within parentheses.
+Lists and tuples both contain a sequence of comma separated elements.  However, lists are mutable whereas tuples are immutable. Lists are represented within square brackets, whereas tuples are represented within parentheses.  Tuples will work as keys in dictionaries because they are immutable.
 
 ---
 
