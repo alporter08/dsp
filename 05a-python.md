@@ -57,7 +57,6 @@ Lambda functions are small anonymous functions.  They can be used where a functi
 >>> sorted(animals, key=lambda animal: animal[1])
 [('cat', 'black'), ('fish', 'blue'), ('dog', 'golden')]
 ```
-
 ---
 
 ###Q4. List Comprehension, Map &amp; Filter
@@ -97,6 +96,22 @@ Using `filter`
 >>> pos
 [1, 4, 5]
 ```
+The capabilities between these list comprehensions and `map` and `filter` are similar, but some consider list comprehensions as being cleaner and more pythonic.
+
+**Set comprehension**
+```python
+>>> s1 = {'cat', 'dog', 'horse'}
+>>> s2 = {'fish', 'snake', 'horse'}
+>>> s = {x for x in s1 if x in s2}
+>>> s
+set(['horse'])
+```
+**Dict comprehension**
+```python
+>>> {x: x*3 for x in range(10)}
+{0: 0, 1: 3, 2: 6, 3: 9, 4: 12, 5: 15, 6: 18, 7: 21, 8: 24, 9: 27}
+```
+
 ---
 
 ###Complete the following problems by editing the files below:
