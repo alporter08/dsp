@@ -64,7 +64,27 @@ Lambda functions are small anonymous functions.  They can be used where a functi
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+List comprehensions are a compact and concise way to create and manipulate lists.
+
+**List comprehension example and comparison with `map` and `filter`**
+
+The code below creates a list of 4 numbers (1-4) multiplied by 3.
+
+List comprehension
+```python
+>>> threes = [x*3 for x in range(1,5)]
+>>> threes
+[3, 6, 9, 12]
+```
+Using `map`
+```python
+>>> l = range(1, 5)
+>>> threes = list(map(lambda x: x*3, l))
+>>> threes
+[3, 6, 9, 12]
+```
+List comprehension
+```python
 
 ---
 
