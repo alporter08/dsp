@@ -85,7 +85,18 @@ Using `map`
 ```
 List comprehension
 ```python
-
+>>> items = [1, -2, 4, 5, -7]
+>>> positive = [x for x in items if x > 0]
+>>> positive
+[1, 4, 5]
+```
+Using `filter`
+```python
+>>> items = [1, -2, 4, 5, -7]
+>>> pos = filter(lambda x: x > 0, items)
+>>> pos
+[1, 4, 5]
+```
 ---
 
 ###Complete the following problems by editing the files below:
