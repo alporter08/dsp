@@ -18,7 +18,15 @@ def donuts(count):
     >>> donuts(99)
     'Number of donuts: many'
     """
-    raise NotImplementedError
+
+    if count < 0:
+        raise NotImplementedError
+
+    elif count > 0 and count < 10:
+        return 'Number of donuts: %d' % count
+
+    elif count >= 10:
+        return 'Number of donuts: many'
 
 
 def both_ends(s):
