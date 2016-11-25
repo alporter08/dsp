@@ -20,7 +20,7 @@ def donuts(count):
     """
 
     if count < 0:
-        raise NotImplementedError
+        return 'Must be positive integer'
 
     elif count > 0 and count < 10:
         return 'Number of donuts: %d' % count
@@ -71,7 +71,17 @@ def fix_start(s):
     >>> fix_start('donut')
     'donut'
     """
-    raise NotImplementedError
+    c0 = s[0]
+    index = 1
+    new = str()
+    while index < len(s):
+        if s[index] == c0:
+            new = new + '*'
+        else:
+            new = new + s[index]
+        index = index + 1
+    return  c0 + new
+
 
 
 def mix_up(a, b):
