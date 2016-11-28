@@ -39,7 +39,19 @@ def front_x(words):
     >>> front_x(['mix', 'xyz', 'apple', 'xanadu', 'aardvark'])
     ['xanadu', 'xyz', 'aardvark', 'apple', 'mix']
     """
-    raise NotImplementedError
+    x_list = []
+    other_list = []
+
+    for item in words:
+        if item[0] == 'x':
+            x_list.append(item)
+        else:
+            other_list.append(item)
+
+    x_list.sort()
+    other_list.sort()
+
+    return x_list + other_list
 
 
 def sort_last(tuples):
