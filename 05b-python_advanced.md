@@ -26,7 +26,9 @@ There are 9 different degrees (including 'no degree').
 
 ####Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
 
->> REPLACE THIS WITH YOUR RESPONSE
+There are 3 different titles.
+
+{'Assistant Professor': 12, 'Professor': 13, 'Associate Professor': 12}
 
 
 ####Q3. Search for email addresses and put them in a list.  Print the list of email addresses.
