@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import re
 
 def degrees(file):
@@ -54,3 +56,32 @@ def titles(file):
 
 
     return len(d), d
+
+def emails(file):
+    fin = open(file)
+    next(fin) #skip first line (header)
+
+    emails = []
+
+    for line in fin:
+        l = line.split(',')
+        l = [x.strip() for x in l]
+        emails.append(l[3])
+
+    domains = []
+
+#extract domain name
+    for item in emails:
+        item = item.split('@')
+        domains.append(item[1])
+
+    #create dictionary with frequencies
+    d = {}
+
+    for item in domains:
+        if item not in d:
+            d[item] = 1
+        else:
+            d[item] += 1
+
+    return len(d), d  
