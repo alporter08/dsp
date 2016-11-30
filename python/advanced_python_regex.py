@@ -42,7 +42,7 @@ def titles(file):
         l = line.split(',')
         l = [x.strip() for x in l]
         title = l[2]
-        x = re.sub(' .. Biostatistics','',title) #remove ' of Biostatistics' from degrees
+        x = re.sub(' .. Biostatistics','',title) #remove ' of Biostatistics' from title
         titles.append(x)
 
 #create dictionary with frequencies
@@ -84,4 +84,4 @@ def emails(file):
         else:
             d[item] += 1
 
-    return len(d), d  
+    return len(d), d
