@@ -5,6 +5,8 @@ It appears that first babies are less heavy than others.  The mean weight is ~7.
 These values were calculated using the below code:
 
 ```
+python
+
 def weights():
     live, firsts, others = first.MakeFrames()
     firsts_mean = firsts.totalwgt_lb.mean()
