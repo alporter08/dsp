@@ -31,6 +31,12 @@ lst = [u + v, u - v, alpha * u, u.dot(np.transpose(v)), LA.norm(u)]
 
 for item in lst:
     print item
+    
+# output: [[ 9  7 -4  9]]
+# [[ 3 -3 -2  1]]
+# [[ 36  12 -18  30]]
+# [[51]]
+# 8.60232526704
 
 # Part 3
 
