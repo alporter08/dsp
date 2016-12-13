@@ -16,6 +16,14 @@ lst = [A, B, C, D, u, v, w]
 
 for item in lst:
     print item.shape
+    
+# output: (2, 3)
+# (2, 2)
+# (3, 2)
+# (2, 3)
+# (1, 4)
+# (1, 4)
+# (4, 1) 
 
 # Part 2
 alpha = 6
