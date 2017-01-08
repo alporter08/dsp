@@ -104,6 +104,8 @@ How do frequentist and Bayesian statistics compare?
 
 Frequentists and Bayesians differ on how they evaluate probabilities.  Frequentists' approach centers around defining probabilities in the context of repeated measurements, whereas Bayesians evaluate probabilities as a measure of uncertainty.
 
+Source: https://arxiv.org/pdf/1411.5018v1.pdf
+
 ---
 
 ## <a name="section-d"></a>4.  Optional Exercises
