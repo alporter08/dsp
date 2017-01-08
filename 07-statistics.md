@@ -102,7 +102,7 @@ Using the given probabilities, the probability that Elvis was an identical twin 
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Frequentists and Bayesians differ on how they evaluate probabilities.  Frequentists' approach centers around defining probabilities in the context of repeated measurements, whereas Bayesians evaluate probabilities as a measure of uncertainty.
 
 ---
 
